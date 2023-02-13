@@ -5,7 +5,7 @@ import { Home } from './pages';
 
 function App() {
   return (
-    <div className='min-h-screen bg-[#FCFCFC]'>
+    <div className='min-h-screen bg-[#FCFCFC] relative overflow-x-hidden'>
       <BrowserRouter>
         <NavbarScreen />
         <Routes>

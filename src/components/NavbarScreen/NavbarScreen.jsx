@@ -13,7 +13,7 @@ const NavbarScreen = () => {
           <p className='font-extrabold text-xs text-[#4454F4]'>Since 1992</p>
         </div>
       </div>
-      <div className='mt-[67px] mx-[38px] hidden md:flex items-center w-8 h-12 md:w-full md:h-full'>
+      <div className='mt-[67px] mx-[38px] hidden lg:flex items-center w-8 h-12 md:w-full md:h-full'>
         <ul className='flex md:flex-row items-center justify-between md:gap-[102px] font-bold text-2xl text-[#7C8CFC]'>
           <li className='p-[10px] hover:text-white hover:bg-[#7C8CFC] rounded-2xl transition-all'>
             <a href='/'>Salas</a>
