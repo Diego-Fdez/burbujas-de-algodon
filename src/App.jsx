@@ -1,9 +1,10 @@
 import './App.css';
+import { NavbarScreen } from './components';
 
 function App() {
   return (
-    <div>
-      <h1 className='text-red-500'>Burbujas de Algodón</h1>
+    <div className='min-h-screen bg-[#FCFCFC]'>
+      <NavbarScreen />
     </div>
   );
 }
