@@ -10,7 +10,7 @@ const Home = () => {
         </div>
         <SlideScreen />
       </aside>
-      <main>
+      <main className='flex flex-col justify-center items-center'>
         <HeroScreen />
       </main>
     </>
