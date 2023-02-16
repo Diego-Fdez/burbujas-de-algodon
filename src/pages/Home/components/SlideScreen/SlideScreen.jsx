@@ -49,8 +49,8 @@ const SlideScreen = () => {
     'img-1-scroll',
     'img-2-scroll',
     'img-3-scroll',
-    'img-1-scroll',
     'img-4-scroll',
+    'img-5-scroll',
   ];
 
   return (
