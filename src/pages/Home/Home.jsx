@@ -1,9 +1,11 @@
-import { SlideScreen, HeroScreen, VectorScreen } from './components';
+import { SlideScreen, HeroScreen } from './components';
+import { FigureScreen } from '../../components';
+import { topHomeSVG, bottomHomeSVG } from '../../utilities/svgList';
 
 const Home = () => {
   return (
     <>
-      <VectorScreen />
+      <FigureScreen svgElement={topHomeSVG} />
       <aside className='z-10'>
         <div className='hidden md:flex md:flex-col text-[#7C8CFC] absolute top-[180px] left-20 gap-2'>
           <h1 className=' font-bold text-5xl'>Burbujas de Algodón</h1>
@@ -11,8 +13,9 @@ const Home = () => {
         </div>
         <SlideScreen />
       </aside>
-      <main className='flex flex-col justify-center items-center'>
+      <main className='flex flex-col justify-center items-center relative w-full'>
         <HeroScreen />
+        <FigureScreen svgElement={bottomHomeSVG} />
       </main>
     </>
   );
