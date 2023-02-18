@@ -1,4 +1,4 @@
-import { SlideScreen, HeroScreen } from './components';
+import { SlideScreen, HeroScreen, Testimonials } from './components';
 import { FigureScreen } from '../../components';
 import { topHomeSVG, bottomHomeSVG } from '../../utilities/svgList';
 
@@ -16,6 +16,7 @@ const Home = () => {
       <main className='flex flex-col justify-center items-center relative w-full'>
         <HeroScreen />
         <FigureScreen svgElement={bottomHomeSVG} />
+        <Testimonials />
       </main>
     </>
   );
