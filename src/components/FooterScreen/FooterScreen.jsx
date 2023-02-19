@@ -20,6 +20,11 @@ const FooterScreen = () => {
               className={`lg:w-[104px] lg:h-24`}
             />
           </a>
+          <p
+            className={`text-[#4454F4] lg:text-xs font-extrabold absolute lg:left-32 lg:top-[195px]`}
+          >
+            Since 1992
+          </p>
         </div>
         <div>
           <h5
