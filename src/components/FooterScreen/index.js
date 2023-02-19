@@ -1,0 +1,1 @@
+export { default as FooterScreen } from './FooterScreen';
